@@ -22,6 +22,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   String icon = "";
   String localTime = "";
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
