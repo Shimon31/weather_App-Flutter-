@@ -29,7 +29,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
 
   Future fetchWeather() async {
     final url = "$baseUrl?key=$apiKey&q$city";
-    final response = await http.get(url);
+    final response = await http.get(url.length);
   }
 
   @override
