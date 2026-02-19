@@ -94,7 +94,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
               feelsLike,
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 11),
             Text(
               windSpeed,
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
